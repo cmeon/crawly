@@ -47,7 +47,6 @@ defmodule Crawly.Mixfile do
     [
       {:httpoison, "~> 3.0"},
       {:elixir_uuid, "~> 1.2"},
-      {:poison, "~> 6.0.0"},
       {:gollum, "~> 0.5.0",
        github: "cmeon/gollum", branch: "update-dependencies"},
       {:plug_cowboy, "~> 2.9.0"},
@@ -57,7 +56,7 @@ defmodule Crawly.Mixfile do
       {:meck, "~> 1.2.0", only: :test},
       {:excoveralls, "~> 0.18.5", only: :test},
       {:yaml_elixir, "~> 2.12.2"},
-      {:ex_json_schema, "~> 0.11.3"},
+      {:ex_json_schema, "~> 0.11.5"},
       # Add floki only for crawly standalone release
       {:floki, "~> 0.38.4", only: [:dev, :test, :standalone_crawly]}
     ]
